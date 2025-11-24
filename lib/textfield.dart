@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
         backgroundColor: Colors.grey[100],
-        appBar: AppBar(title: const Text('Login')),
+        appBar: AppBar(title: const Center(child: Text('Login'))),
         body: Center(
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(16),
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                           child: Image.network(
                             'https://stickershop.line-scdn.net/stickershop/v1/product/23701012/LINEStorePC/main.png?v=1',
-                            height: 500,
+                            height: 300,
                             width: double.infinity,
                             fit: BoxFit.cover,
                           ),
